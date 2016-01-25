@@ -1,0 +1,430 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Manifest Merging:
+-----------------
+Your project uses libraries that provide manifests, and your Eclipse
+project did not explicitly turn on manifest merging. In Android Gradle
+projects, manifests are always merged (meaning that contents from your
+libraries' manifests will be merged into the app manifest. If you had
+manually copied contents from library manifests into your app manifest
+you may need to remove these for the app to build correctly.
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+From CircleMenuLib:
+* proguard-project.txt
+From CircleMenuSample:
+* .gradle\
+* .gradle\2.10\
+* .gradle\2.10\taskArtifacts\
+* .gradle\2.10\taskArtifacts\cache.properties
+* .gradle\2.10\taskArtifacts\cache.properties.lock
+* .gradle\2.10\taskArtifacts\fileHashes.bin
+* .gradle\2.10\taskArtifacts\fileSnapshots.bin
+* .gradle\2.10\taskArtifacts\outputFileStates.bin
+* .gradle\2.10\taskArtifacts\taskArtifacts.bin
+* .gradle\2.10\tasks\
+* .gradle\2.10\tasks\_circleMenuLib_compileDebugJavaWithJavac\
+* .gradle\2.10\tasks\_circleMenuLib_compileDebugJavaWithJavac\localClassSetAnalysis\
+* .gradle\2.10\tasks\_circleMenuLib_compileDebugJavaWithJavac\localClassSetAnalysis\localClassSetAnalysis.bin
+* .gradle\2.10\tasks\_circleMenuLib_compileDebugJavaWithJavac\localClassSetAnalysis\localClassSetAnalysis.lock
+* .gradle\2.10\tasks\_circleMenuLib_compileDebugJavaWithJavac\localJarClasspathSnapshot\
+* .gradle\2.10\tasks\_circleMenuLib_compileDebugJavaWithJavac\localJarClasspathSnapshot\localJarClasspathSnapshot.bin
+* .gradle\2.10\tasks\_circleMenuLib_compileDebugJavaWithJavac\localJarClasspathSnapshot\localJarClasspathSnapshot.lock
+* .gradle\2.10\tasks\_circleMenuLib_compileReleaseJavaWithJavac\
+* .gradle\2.10\tasks\_circleMenuLib_compileReleaseJavaWithJavac\localClassSetAnalysis\
+* .gradle\2.10\tasks\_circleMenuLib_compileReleaseJavaWithJavac\localClassSetAnalysis\localClassSetAnalysis.bin
+* .gradle\2.10\tasks\_circleMenuLib_compileReleaseJavaWithJavac\localClassSetAnalysis\localClassSetAnalysis.lock
+* .gradle\2.10\tasks\_circleMenuLib_compileReleaseJavaWithJavac\localJarClasspathSnapshot\
+* .gradle\2.10\tasks\_circleMenuLib_compileReleaseJavaWithJavac\localJarClasspathSnapshot\localJarClasspathSnapshot.bin
+* .gradle\2.10\tasks\_circleMenuLib_compileReleaseJavaWithJavac\localJarClasspathSnapshot\localJarClasspathSnapshot.lock
+* .gradle\2.10\tasks\_circleMenuSample_compileDebugJavaWithJavac\
+* .gradle\2.10\tasks\_circleMenuSample_compileDebugJavaWithJavac\localClassSetAnalysis\
+* .gradle\2.10\tasks\_circleMenuSample_compileDebugJavaWithJavac\localClassSetAnalysis\localClassSetAnalysis.bin
+* .gradle\2.10\tasks\_circleMenuSample_compileDebugJavaWithJavac\localClassSetAnalysis\localClassSetAnalysis.lock
+* .gradle\2.10\tasks\_circleMenuSample_compileDebugJavaWithJavac\localJarClasspathSnapshot\
+* .gradle\2.10\tasks\_circleMenuSample_compileDebugJavaWithJavac\localJarClasspathSnapshot\localJarClasspathSnapshot.bin
+* .gradle\2.10\tasks\_circleMenuSample_compileDebugJavaWithJavac\localJarClasspathSnapshot\localJarClasspathSnapshot.lock
+* circleMenuLib\
+* circleMenuLib\build\
+* circleMenuLib\build\intermediates\
+* circleMenuLib\build\intermediates\classes\
+* circleMenuLib\build\intermediates\classes\release\
+* circleMenuLib\build\intermediates\classes\release\com\
+* circleMenuLib\build\intermediates\classes\release\com\szugyi\
+* circleMenuLib\build\intermediates\classes\release\com\szugyi\circlemenu\
+* circleMenuLib\build\intermediates\classes\release\com\szugyi\circlemenu\BuildConfig.class
+* circleMenuLib\build\intermediates\classes\release\com\szugyi\circlemenu\R$attr.class
+* circleMenuLib\build\intermediates\classes\release\com\szugyi\circlemenu\R$id.class
+* circleMenuLib\build\intermediates\classes\release\com\szugyi\circlemenu\R$styleable.class
+* circleMenuLib\build\intermediates\classes\release\com\szugyi\circlemenu\R.class
+* circleMenuLib\build\intermediates\classes\release\com\szugyi\circlemenu\view\
+* circleMenuLib\build\intermediates\classes\release\com\szugyi\circlemenu\view\CircleImageView.class
+* circleMenuLib\build\intermediates\classes\release\com\szugyi\circlemenu\view\CircleLayout$1.class
+* circleMenuLib\build\intermediates\classes\release\com\szugyi\circlemenu\view\CircleLayout$MyGestureListener.class
+* circleMenuLib\build\intermediates\classes\release\com\szugyi\circlemenu\view\CircleLayout$OnCenterClickListener.class
+* circleMenuLib\build\intermediates\classes\release\com\szugyi\circlemenu\view\CircleLayout$OnItemClickListener.class
+* circleMenuLib\build\intermediates\classes\release\com\szugyi\circlemenu\view\CircleLayout$OnItemSelectedListener.class
+* circleMenuLib\build\intermediates\classes\release\com\szugyi\circlemenu\view\CircleLayout$OnRotationFinishedListener.class
+* circleMenuLib\build\intermediates\classes\release\com\szugyi\circlemenu\view\CircleLayout.class
+* circleMenuSample\
+* circleMenuSample\build\
+* circleMenuSample\build\intermediates\
+* circleMenuSample\build\intermediates\classes\
+* circleMenuSample\build\intermediates\classes\debug\
+* circleMenuSample\build\intermediates\classes\debug\com\
+* circleMenuSample\build\intermediates\classes\debug\com\szugyi\
+* circleMenuSample\build\intermediates\classes\debug\com\szugyi\circlemenu\
+* circleMenuSample\build\intermediates\classes\debug\com\szugyi\circlemenu\R$attr.class
+* circleMenuSample\build\intermediates\classes\debug\com\szugyi\circlemenu\R$id.class
+* circleMenuSample\build\intermediates\classes\debug\com\szugyi\circlemenu\R$styleable.class
+* circleMenuSample\build\intermediates\classes\debug\com\szugyi\circlemenu\R.class
+* circleMenuSample\build\intermediates\classes\debug\com\szugyi\circlemenusample\
+* circleMenuSample\build\intermediates\classes\debug\com\szugyi\circlemenusample\BuildConfig.class
+* circleMenuSample\build\intermediates\classes\debug\com\szugyi\circlemenusample\MainActivity.class
+* circleMenuSample\build\intermediates\classes\debug\com\szugyi\circlemenusample\R$array.class
+* circleMenuSample\build\intermediates\classes\debug\com\szugyi\circlemenusample\R$attr.class
+* circleMenuSample\build\intermediates\classes\debug\com\szugyi\circlemenusample\R$drawable.class
+* circleMenuSample\build\intermediates\classes\debug\com\szugyi\circlemenusample\R$id.class
+* circleMenuSample\build\intermediates\classes\debug\com\szugyi\circlemenusample\R$layout.class
+* circleMenuSample\build\intermediates\classes\debug\com\szugyi\circlemenusample\R$string.class
+* circleMenuSample\build\intermediates\classes\debug\com\szugyi\circlemenusample\R$style.class
+* circleMenuSample\build\intermediates\classes\debug\com\szugyi\circlemenusample\R$styleable.class
+* circleMenuSample\build\intermediates\classes\debug\com\szugyi\circlemenusample\R.class
+* circleMenuSample\build\intermediates\classes\debug\com\szugyi\circlemenusample\SampleActivity.class
+* circleMenuSample\build\intermediates\incremental-verifier\
+* circleMenuSample\build\intermediates\incremental-verifier\debug\
+* circleMenuSample\build\intermediates\incremental-verifier\debug\com\
+* circleMenuSample\build\intermediates\incremental-verifier\debug\com\szugyi\
+* circleMenuSample\build\intermediates\incremental-verifier\debug\com\szugyi\circlemenu\
+* circleMenuSample\build\intermediates\incremental-verifier\debug\com\szugyi\circlemenu\BuildConfig.class
+* circleMenuSample\build\intermediates\incremental-verifier\debug\com\szugyi\circlemenu\R$attr.class
+* circleMenuSample\build\intermediates\incremental-verifier\debug\com\szugyi\circlemenu\R$id.class
+* circleMenuSample\build\intermediates\incremental-verifier\debug\com\szugyi\circlemenu\R$styleable.class
+* circleMenuSample\build\intermediates\incremental-verifier\debug\com\szugyi\circlemenu\R.class
+* circleMenuSample\build\intermediates\incremental-verifier\debug\com\szugyi\circlemenu\view\
+* circleMenuSample\build\intermediates\incremental-verifier\debug\com\szugyi\circlemenu\view\CircleImageView.class
+* circleMenuSample\build\intermediates\incremental-verifier\debug\com\szugyi\circlemenu\view\CircleLayout$1.class
+* circleMenuSample\build\intermediates\incremental-verifier\debug\com\szugyi\circlemenu\view\CircleLayout$MyGestureListener.class
+* circleMenuSample\build\intermediates\incremental-verifier\debug\com\szugyi\circlemenu\view\CircleLayout$OnCenterClickListener.class
+* circleMenuSample\build\intermediates\incremental-verifier\debug\com\szugyi\circlemenu\view\CircleLayout$OnItemClickListener.class
+* circleMenuSample\build\intermediates\incremental-verifier\debug\com\szugyi\circlemenu\view\CircleLayout$OnItemSelectedListener.class
+* circleMenuSample\build\intermediates\incremental-verifier\debug\com\szugyi\circlemenu\view\CircleLayout$OnRotationFinishedListener.class
+* circleMenuSample\build\intermediates\incremental-verifier\debug\com\szugyi\circlemenu\view\CircleLayout.class
+* circleMenuSample\build\intermediates\incremental-verifier\debug\com\szugyi\circlemenusample\
+* circleMenuSample\build\intermediates\incremental-verifier\debug\com\szugyi\circlemenusample\BuildConfig.class
+* circleMenuSample\build\intermediates\incremental-verifier\debug\com\szugyi\circlemenusample\MainActivity.class
+* circleMenuSample\build\intermediates\incremental-verifier\debug\com\szugyi\circlemenusample\R$array.class
+* circleMenuSample\build\intermediates\incremental-verifier\debug\com\szugyi\circlemenusample\R$attr.class
+* circleMenuSample\build\intermediates\incremental-verifier\debug\com\szugyi\circlemenusample\R$drawable.class
+* circleMenuSample\build\intermediates\incremental-verifier\debug\com\szugyi\circlemenusample\R$id.class
+* circleMenuSample\build\intermediates\incremental-verifier\debug\com\szugyi\circlemenusample\R$layout.class
+* circleMenuSample\build\intermediates\incremental-verifier\debug\com\szugyi\circlemenusample\R$string.class
+* circleMenuSample\build\intermediates\incremental-verifier\debug\com\szugyi\circlemenusample\R$style.class
+* circleMenuSample\build\intermediates\incremental-verifier\debug\com\szugyi\circlemenusample\R$styleable.class
+* circleMenuSample\build\intermediates\incremental-verifier\debug\com\szugyi\circlemenusample\R.class
+* circleMenuSample\build\intermediates\incremental-verifier\debug\com\szugyi\circlemenusample\SampleActivity.class
+* circleMenuSample\build\intermediates\res\
+* circleMenuSample\build\intermediates\res\resources-debug-androidTest.ap_
+* circleMenuSample\build\intermediates\res\resources-debug.ap_
+* circleMenuSample\build\intermediates\transforms\
+* circleMenuSample\build\intermediates\transforms\dex\
+* circleMenuSample\build\intermediates\transforms\dex\debug\
+* circleMenuSample\build\intermediates\transforms\dex\debug\folders\
+* circleMenuSample\build\intermediates\transforms\dex\debug\folders\1000\
+* circleMenuSample\build\intermediates\transforms\dex\debug\folders\1000\1a\
+* circleMenuSample\build\intermediates\transforms\dex\debug\folders\1000\1a\dependencies_f23e83fbf81e39180b8f4e3701f5204ffa9f3edd\
+* circleMenuSample\build\intermediates\transforms\dex\debug\folders\1000\1a\dependencies_f23e83fbf81e39180b8f4e3701f5204ffa9f3edd\classes.dex
+* circleMenuSample\build\intermediates\transforms\dex\debug\folders\1000\5\
+* circleMenuSample\build\intermediates\transforms\dex\debug\folders\1000\5\slice_0_b382ade612d96e6cb89aada2e6b94fdcd8304002\
+* circleMenuSample\build\intermediates\transforms\dex\debug\folders\1000\5\slice_0_b382ade612d96e6cb89aada2e6b94fdcd8304002\classes.dex
+* circleMenuSample\build\intermediates\transforms\dex\debug\folders\1000\5\slice_1_420899ee120858241188bb992ad47ffcbdf4ab1d\
+* circleMenuSample\build\intermediates\transforms\dex\debug\folders\1000\5\slice_1_420899ee120858241188bb992ad47ffcbdf4ab1d\classes.dex
+* circleMenuSample\build\intermediates\transforms\dex\debug\folders\1000\5\slice_2_db8297bae0865e5bbaef11bf3cfec79cd0697b7e\
+* circleMenuSample\build\intermediates\transforms\dex\debug\folders\1000\5\slice_2_db8297bae0865e5bbaef11bf3cfec79cd0697b7e\classes.dex
+* circleMenuSample\build\intermediates\transforms\dex\debug\folders\1000\5\slice_3_224cafd31f61db22817448de69a8b78699767181\
+* circleMenuSample\build\intermediates\transforms\dex\debug\folders\1000\5\slice_3_224cafd31f61db22817448de69a8b78699767181\classes.dex
+* circleMenuSample\build\intermediates\transforms\dex\debug\folders\1000\5\slice_4_3412914998c3f471f068696fd4c89deab9f793ba\
+* circleMenuSample\build\intermediates\transforms\dex\debug\folders\1000\5\slice_4_3412914998c3f471f068696fd4c89deab9f793ba\classes.dex
+* circleMenuSample\build\intermediates\transforms\dex\debug\folders\1000\5\slice_5_f25b97cd4d71f8759b651425653ff288235da904\
+* circleMenuSample\build\intermediates\transforms\dex\debug\folders\1000\5\slice_5_f25b97cd4d71f8759b651425653ff288235da904\classes.dex
+* circleMenuSample\build\intermediates\transforms\dex\debug\folders\1000\5\slice_6_227d3417cd1fc9c11ac6a059b5f045c91138d919\
+* circleMenuSample\build\intermediates\transforms\dex\debug\folders\1000\5\slice_6_227d3417cd1fc9c11ac6a059b5f045c91138d919\classes.dex
+* circleMenuSample\build\intermediates\transforms\dex\debug\folders\1000\5\slice_7_1eb1f641fd845c792bfe773b95ed5a457ea7f6de\
+* circleMenuSample\build\intermediates\transforms\dex\debug\folders\1000\5\slice_7_1eb1f641fd845c792bfe773b95ed5a457ea7f6de\classes.dex
+* circleMenuSample\build\intermediates\transforms\dex\debug\folders\1000\5\slice_8_36c390ab900c6b6b2221154e935e918c18655d90\
+* circleMenuSample\build\intermediates\transforms\dex\debug\folders\1000\5\slice_8_36c390ab900c6b6b2221154e935e918c18655d90\classes.dex
+* circleMenuSample\build\intermediates\transforms\extractJars\
+* circleMenuSample\build\intermediates\transforms\extractJars\debug\
+* circleMenuSample\build\intermediates\transforms\extractJars\debug\folders\
+* circleMenuSample\build\intermediates\transforms\extractJars\debug\folders\1\
+* circleMenuSample\build\intermediates\transforms\extractJars\debug\folders\1\4\
+* circleMenuSample\build\intermediates\transforms\extractJars\debug\folders\1\4\classes.jar-1777850104\
+* circleMenuSample\build\intermediates\transforms\extractJars\debug\folders\1\4\classes.jar-1777850104\com\
+* circleMenuSample\build\intermediates\transforms\extractJars\debug\folders\1\4\classes.jar-1777850104\com\szugyi\
+* circleMenuSample\build\intermediates\transforms\extractJars\debug\folders\1\4\classes.jar-1777850104\com\szugyi\circlemenu\
+* circleMenuSample\build\intermediates\transforms\extractJars\debug\folders\1\4\classes.jar-1777850104\com\szugyi\circlemenu\BuildConfig.class
+* circleMenuSample\build\intermediates\transforms\extractJars\debug\folders\1\4\classes.jar-1777850104\com\szugyi\circlemenu\view\
+* circleMenuSample\build\intermediates\transforms\extractJars\debug\folders\1\4\classes.jar-1777850104\com\szugyi\circlemenu\view\CircleImageView.class
+* circleMenuSample\build\intermediates\transforms\extractJars\debug\folders\1\4\classes.jar-1777850104\com\szugyi\circlemenu\view\CircleLayout$1.class
+* circleMenuSample\build\intermediates\transforms\extractJars\debug\folders\1\4\classes.jar-1777850104\com\szugyi\circlemenu\view\CircleLayout$MyGestureListener.class
+* circleMenuSample\build\intermediates\transforms\extractJars\debug\folders\1\4\classes.jar-1777850104\com\szugyi\circlemenu\view\CircleLayout$OnCenterClickListener.class
+* circleMenuSample\build\intermediates\transforms\extractJars\debug\folders\1\4\classes.jar-1777850104\com\szugyi\circlemenu\view\CircleLayout$OnItemClickListener.class
+* circleMenuSample\build\intermediates\transforms\extractJars\debug\folders\1\4\classes.jar-1777850104\com\szugyi\circlemenu\view\CircleLayout$OnItemSelectedListener.class
+* circleMenuSample\build\intermediates\transforms\extractJars\debug\folders\1\4\classes.jar-1777850104\com\szugyi\circlemenu\view\CircleLayout$OnRotationFinishedListener.class
+* circleMenuSample\build\intermediates\transforms\extractJars\debug\folders\1\4\classes.jar-1777850104\com\szugyi\circlemenu\view\CircleLayout.class
+* circleMenuSample\build\intermediates\transforms\instantRunSlicer\
+* circleMenuSample\build\intermediates\transforms\instantRunSlicer\debug\
+* circleMenuSample\build\intermediates\transforms\instantRunSlicer\debug\folders\
+* circleMenuSample\build\intermediates\transforms\instantRunSlicer\debug\folders\1\
+* circleMenuSample\build\intermediates\transforms\instantRunSlicer\debug\folders\1\5\
+* circleMenuSample\build\intermediates\transforms\instantRunSlicer\debug\folders\1\5\slice_0\
+* circleMenuSample\build\intermediates\transforms\instantRunSlicer\debug\folders\1\5\slice_0\com\
+* circleMenuSample\build\intermediates\transforms\instantRunSlicer\debug\folders\1\5\slice_0\com\szugyi\
+* circleMenuSample\build\intermediates\transforms\instantRunSlicer\debug\folders\1\5\slice_0\com\szugyi\circlemenu\
+* circleMenuSample\build\intermediates\transforms\instantRunSlicer\debug\folders\1\5\slice_0\com\szugyi\circlemenu\BuildConfig.class
+* circleMenuSample\build\intermediates\transforms\instantRunSlicer\debug\folders\1\5\slice_0\com\szugyi\circlemenu\R$attr.class
+* circleMenuSample\build\intermediates\transforms\instantRunSlicer\debug\folders\1\5\slice_0\com\szugyi\circlemenu\R$id.class
+* circleMenuSample\build\intermediates\transforms\instantRunSlicer\debug\folders\1\5\slice_1\
+* circleMenuSample\build\intermediates\transforms\instantRunSlicer\debug\folders\1\5\slice_1\com\
+* circleMenuSample\build\intermediates\transforms\instantRunSlicer\debug\folders\1\5\slice_1\com\szugyi\
+* circleMenuSample\build\intermediates\transforms\instantRunSlicer\debug\folders\1\5\slice_1\com\szugyi\circlemenu\
+* circleMenuSample\build\intermediates\transforms\instantRunSlicer\debug\folders\1\5\slice_1\com\szugyi\circlemenu\R$styleable.class
+* circleMenuSample\build\intermediates\transforms\instantRunSlicer\debug\folders\1\5\slice_1\com\szugyi\circlemenu\R.class
+* circleMenuSample\build\intermediates\transforms\instantRunSlicer\debug\folders\1\5\slice_1\com\szugyi\circlemenu\view\
+* circleMenuSample\build\intermediates\transforms\instantRunSlicer\debug\folders\1\5\slice_1\com\szugyi\circlemenu\view\CircleImageView.class
+* circleMenuSample\build\intermediates\transforms\instantRunSlicer\debug\folders\1\5\slice_2\
+* circleMenuSample\build\intermediates\transforms\instantRunSlicer\debug\folders\1\5\slice_2\com\
+* circleMenuSample\build\intermediates\transforms\instantRunSlicer\debug\folders\1\5\slice_2\com\szugyi\
+* circleMenuSample\build\intermediates\transforms\instantRunSlicer\debug\folders\1\5\slice_2\com\szugyi\circlemenu\
+* circleMenuSample\build\intermediates\transforms\instantRunSlicer\debug\folders\1\5\slice_2\com\szugyi\circlemenu\view\
+* circleMenuSample\build\intermediates\transforms\instantRunSlicer\debug\folders\1\5\slice_2\com\szugyi\circlemenu\view\CircleLayout$1.class
+* circleMenuSample\build\intermediates\transforms\instantRunSlicer\debug\folders\1\5\slice_2\com\szugyi\circlemenu\view\CircleLayout$MyGestureListener.class
+* circleMenuSample\build\intermediates\transforms\instantRunSlicer\debug\folders\1\5\slice_2\com\szugyi\circlemenu\view\CircleLayout$OnCenterClickListener.class
+* circleMenuSample\build\intermediates\transforms\instantRunSlicer\debug\folders\1\5\slice_3\
+* circleMenuSample\build\intermediates\transforms\instantRunSlicer\debug\folders\1\5\slice_3\com\
+* circleMenuSample\build\intermediates\transforms\instantRunSlicer\debug\folders\1\5\slice_3\com\szugyi\
+* circleMenuSample\build\intermediates\transforms\instantRunSlicer\debug\folders\1\5\slice_3\com\szugyi\circlemenu\
+* circleMenuSample\build\intermediates\transforms\instantRunSlicer\debug\folders\1\5\slice_3\com\szugyi\circlemenu\view\
+* circleMenuSample\build\intermediates\transforms\instantRunSlicer\debug\folders\1\5\slice_3\com\szugyi\circlemenu\view\CircleLayout$OnItemClickListener.class
+* circleMenuSample\build\intermediates\transforms\instantRunSlicer\debug\folders\1\5\slice_3\com\szugyi\circlemenu\view\CircleLayout$OnItemSelectedListener.class
+* circleMenuSample\build\intermediates\transforms\instantRunSlicer\debug\folders\1\5\slice_3\com\szugyi\circlemenu\view\CircleLayout$OnRotationFinishedListener.class
+* circleMenuSample\build\intermediates\transforms\instantRunSlicer\debug\folders\1\5\slice_4\
+* circleMenuSample\build\intermediates\transforms\instantRunSlicer\debug\folders\1\5\slice_4\com\
+* circleMenuSample\build\intermediates\transforms\instantRunSlicer\debug\folders\1\5\slice_4\com\szugyi\
+* circleMenuSample\build\intermediates\transforms\instantRunSlicer\debug\folders\1\5\slice_4\com\szugyi\circlemenu\
+* circleMenuSample\build\intermediates\transforms\instantRunSlicer\debug\folders\1\5\slice_4\com\szugyi\circlemenu\view\
+* circleMenuSample\build\intermediates\transforms\instantRunSlicer\debug\folders\1\5\slice_4\com\szugyi\circlemenu\view\CircleLayout.class
+* circleMenuSample\build\intermediates\transforms\instantRunSlicer\debug\folders\1\5\slice_4\com\szugyi\circlemenusample\
+* circleMenuSample\build\intermediates\transforms\instantRunSlicer\debug\folders\1\5\slice_4\com\szugyi\circlemenusample\BuildConfig.class
+* circleMenuSample\build\intermediates\transforms\instantRunSlicer\debug\folders\1\5\slice_4\com\szugyi\circlemenusample\MainActivity.class
+* circleMenuSample\build\intermediates\transforms\instantRunSlicer\debug\folders\1\5\slice_5\
+* circleMenuSample\build\intermediates\transforms\instantRunSlicer\debug\folders\1\5\slice_5\com\
+* circleMenuSample\build\intermediates\transforms\instantRunSlicer\debug\folders\1\5\slice_5\com\szugyi\
+* circleMenuSample\build\intermediates\transforms\instantRunSlicer\debug\folders\1\5\slice_5\com\szugyi\circlemenusample\
+* circleMenuSample\build\intermediates\transforms\instantRunSlicer\debug\folders\1\5\slice_5\com\szugyi\circlemenusample\R$array.class
+* circleMenuSample\build\intermediates\transforms\instantRunSlicer\debug\folders\1\5\slice_5\com\szugyi\circlemenusample\R$attr.class
+* circleMenuSample\build\intermediates\transforms\instantRunSlicer\debug\folders\1\5\slice_5\com\szugyi\circlemenusample\R$drawable.class
+* circleMenuSample\build\intermediates\transforms\instantRunSlicer\debug\folders\1\5\slice_6\
+* circleMenuSample\build\intermediates\transforms\instantRunSlicer\debug\folders\1\5\slice_6\com\
+* circleMenuSample\build\intermediates\transforms\instantRunSlicer\debug\folders\1\5\slice_6\com\szugyi\
+* circleMenuSample\build\intermediates\transforms\instantRunSlicer\debug\folders\1\5\slice_6\com\szugyi\circlemenusample\
+* circleMenuSample\build\intermediates\transforms\instantRunSlicer\debug\folders\1\5\slice_6\com\szugyi\circlemenusample\R$id.class
+* circleMenuSample\build\intermediates\transforms\instantRunSlicer\debug\folders\1\5\slice_6\com\szugyi\circlemenusample\R$layout.class
+* circleMenuSample\build\intermediates\transforms\instantRunSlicer\debug\folders\1\5\slice_6\com\szugyi\circlemenusample\R$string.class
+* circleMenuSample\build\intermediates\transforms\instantRunSlicer\debug\folders\1\5\slice_7\
+* circleMenuSample\build\intermediates\transforms\instantRunSlicer\debug\folders\1\5\slice_7\com\
+* circleMenuSample\build\intermediates\transforms\instantRunSlicer\debug\folders\1\5\slice_7\com\szugyi\
+* circleMenuSample\build\intermediates\transforms\instantRunSlicer\debug\folders\1\5\slice_7\com\szugyi\circlemenusample\
+* circleMenuSample\build\intermediates\transforms\instantRunSlicer\debug\folders\1\5\slice_7\com\szugyi\circlemenusample\R$style.class
+* circleMenuSample\build\intermediates\transforms\instantRunSlicer\debug\folders\1\5\slice_7\com\szugyi\circlemenusample\R$styleable.class
+* circleMenuSample\build\intermediates\transforms\instantRunSlicer\debug\folders\1\5\slice_7\com\szugyi\circlemenusample\R.class
+* circleMenuSample\build\intermediates\transforms\instantRunSlicer\debug\folders\1\5\slice_8\
+* circleMenuSample\build\intermediates\transforms\instantRunSlicer\debug\folders\1\5\slice_8\com\
+* circleMenuSample\build\intermediates\transforms\instantRunSlicer\debug\folders\1\5\slice_8\com\szugyi\
+* circleMenuSample\build\intermediates\transforms\instantRunSlicer\debug\folders\1\5\slice_8\com\szugyi\circlemenusample\
+* circleMenuSample\build\intermediates\transforms\instantRunSlicer\debug\folders\1\5\slice_8\com\szugyi\circlemenusample\SampleActivity.class
+* circleMenuSample\build\intermediates\transforms\instantRun\
+* circleMenuSample\build\intermediates\transforms\instantRun\debug\
+* circleMenuSample\build\intermediates\transforms\instantRun\debug\folders\
+* circleMenuSample\build\intermediates\transforms\instantRun\debug\folders\1\
+* circleMenuSample\build\intermediates\transforms\instantRun\debug\folders\1\5\
+* circleMenuSample\build\intermediates\transforms\instantRun\debug\folders\1\5\main\
+* circleMenuSample\build\intermediates\transforms\instantRun\debug\folders\1\5\main\com\
+* circleMenuSample\build\intermediates\transforms\instantRun\debug\folders\1\5\main\com\szugyi\
+* circleMenuSample\build\intermediates\transforms\instantRun\debug\folders\1\5\main\com\szugyi\circlemenu\
+* circleMenuSample\build\intermediates\transforms\instantRun\debug\folders\1\5\main\com\szugyi\circlemenu\BuildConfig.class
+* circleMenuSample\build\intermediates\transforms\instantRun\debug\folders\1\5\main\com\szugyi\circlemenu\R$attr.class
+* circleMenuSample\build\intermediates\transforms\instantRun\debug\folders\1\5\main\com\szugyi\circlemenu\R$id.class
+* circleMenuSample\build\intermediates\transforms\instantRun\debug\folders\1\5\main\com\szugyi\circlemenu\R$styleable.class
+* circleMenuSample\build\intermediates\transforms\instantRun\debug\folders\1\5\main\com\szugyi\circlemenu\R.class
+* circleMenuSample\build\intermediates\transforms\instantRun\debug\folders\1\5\main\com\szugyi\circlemenu\view\
+* circleMenuSample\build\intermediates\transforms\instantRun\debug\folders\1\5\main\com\szugyi\circlemenu\view\CircleImageView.class
+* circleMenuSample\build\intermediates\transforms\instantRun\debug\folders\1\5\main\com\szugyi\circlemenu\view\CircleLayout$1.class
+* circleMenuSample\build\intermediates\transforms\instantRun\debug\folders\1\5\main\com\szugyi\circlemenu\view\CircleLayout$MyGestureListener.class
+* circleMenuSample\build\intermediates\transforms\instantRun\debug\folders\1\5\main\com\szugyi\circlemenu\view\CircleLayout$OnCenterClickListener.class
+* circleMenuSample\build\intermediates\transforms\instantRun\debug\folders\1\5\main\com\szugyi\circlemenu\view\CircleLayout$OnItemClickListener.class
+* circleMenuSample\build\intermediates\transforms\instantRun\debug\folders\1\5\main\com\szugyi\circlemenu\view\CircleLayout$OnItemSelectedListener.class
+* circleMenuSample\build\intermediates\transforms\instantRun\debug\folders\1\5\main\com\szugyi\circlemenu\view\CircleLayout$OnRotationFinishedListener.class
+* circleMenuSample\build\intermediates\transforms\instantRun\debug\folders\1\5\main\com\szugyi\circlemenu\view\CircleLayout.class
+* circleMenuSample\build\intermediates\transforms\instantRun\debug\folders\1\5\main\com\szugyi\circlemenusample\
+* circleMenuSample\build\intermediates\transforms\instantRun\debug\folders\1\5\main\com\szugyi\circlemenusample\BuildConfig.class
+* circleMenuSample\build\intermediates\transforms\instantRun\debug\folders\1\5\main\com\szugyi\circlemenusample\MainActivity.class
+* circleMenuSample\build\intermediates\transforms\instantRun\debug\folders\1\5\main\com\szugyi\circlemenusample\R$array.class
+* circleMenuSample\build\intermediates\transforms\instantRun\debug\folders\1\5\main\com\szugyi\circlemenusample\R$attr.class
+* circleMenuSample\build\intermediates\transforms\instantRun\debug\folders\1\5\main\com\szugyi\circlemenusample\R$drawable.class
+* circleMenuSample\build\intermediates\transforms\instantRun\debug\folders\1\5\main\com\szugyi\circlemenusample\R$id.class
+* circleMenuSample\build\intermediates\transforms\instantRun\debug\folders\1\5\main\com\szugyi\circlemenusample\R$layout.class
+* circleMenuSample\build\intermediates\transforms\instantRun\debug\folders\1\5\main\com\szugyi\circlemenusample\R$string.class
+* circleMenuSample\build\intermediates\transforms\instantRun\debug\folders\1\5\main\com\szugyi\circlemenusample\R$style.class
+* circleMenuSample\build\intermediates\transforms\instantRun\debug\folders\1\5\main\com\szugyi\circlemenusample\R$styleable.class
+* circleMenuSample\build\intermediates\transforms\instantRun\debug\folders\1\5\main\com\szugyi\circlemenusample\R.class
+* circleMenuSample\build\intermediates\transforms\instantRun\debug\folders\1\5\main\com\szugyi\circlemenusample\SampleActivity.class
+* circleMenuSample\build\outputs\
+* circleMenuSample\build\outputs\apk\
+* circleMenuSample\build\outputs\apk\circleMenuSample-debug-unaligned.apk
+* circleMenuSample\build\outputs\apk\circleMenuSample-debug.apk
+* circleMenuSample\build\tmp\
+* circleMenuSample\build\tmp\expandedArchives\
+* circleMenuSample\build\tmp\expandedArchives\classes.jar_d4mx6dqx81v8nlslysv5idm4u\
+* circleMenuSample\build\tmp\expandedArchives\classes.jar_d4mx6dqx81v8nlslysv5idm4u\com\
+* circleMenuSample\build\tmp\expandedArchives\classes.jar_d4mx6dqx81v8nlslysv5idm4u\com\szugyi\
+* circleMenuSample\build\tmp\expandedArchives\classes.jar_d4mx6dqx81v8nlslysv5idm4u\com\szugyi\circlemenu\
+* circleMenuSample\build\tmp\expandedArchives\classes.jar_d4mx6dqx81v8nlslysv5idm4u\com\szugyi\circlemenu\BuildConfig.class
+* circleMenuSample\build\tmp\expandedArchives\classes.jar_d4mx6dqx81v8nlslysv5idm4u\com\szugyi\circlemenu\view\
+* circleMenuSample\build\tmp\expandedArchives\classes.jar_d4mx6dqx81v8nlslysv5idm4u\com\szugyi\circlemenu\view\CircleImageView.class
+* circleMenuSample\build\tmp\expandedArchives\classes.jar_d4mx6dqx81v8nlslysv5idm4u\com\szugyi\circlemenu\view\CircleLayout$1.class
+* circleMenuSample\build\tmp\expandedArchives\classes.jar_d4mx6dqx81v8nlslysv5idm4u\com\szugyi\circlemenu\view\CircleLayout$MyGestureListener.class
+* circleMenuSample\build\tmp\expandedArchives\classes.jar_d4mx6dqx81v8nlslysv5idm4u\com\szugyi\circlemenu\view\CircleLayout$OnCenterClickListener.class
+* circleMenuSample\build\tmp\expandedArchives\classes.jar_d4mx6dqx81v8nlslysv5idm4u\com\szugyi\circlemenu\view\CircleLayout$OnItemClickListener.class
+* circleMenuSample\build\tmp\expandedArchives\classes.jar_d4mx6dqx81v8nlslysv5idm4u\com\szugyi\circlemenu\view\CircleLayout$OnItemSelectedListener.class
+* circleMenuSample\build\tmp\expandedArchives\classes.jar_d4mx6dqx81v8nlslysv5idm4u\com\szugyi\circlemenu\view\CircleLayout$OnRotationFinishedListener.class
+* circleMenuSample\build\tmp\expandedArchives\classes.jar_d4mx6dqx81v8nlslysv5idm4u\com\szugyi\circlemenu\view\CircleLayout.class
+* circleMenuSample\build\tmp\expandedArchives\nineoldandroids-2.4.0.jar_3ojc63j4c6igvnhg5hxjwimio\
+* circleMenuSample\build\tmp\expandedArchives\nineoldandroids-2.4.0.jar_3ojc63j4c6igvnhg5hxjwimio\com\
+* circleMenuSample\build\tmp\expandedArchives\nineoldandroids-2.4.0.jar_3ojc63j4c6igvnhg5hxjwimio\com\nineoldandroids\
+* circleMenuSample\build\tmp\expandedArchives\nineoldandroids-2.4.0.jar_3ojc63j4c6igvnhg5hxjwimio\com\nineoldandroids\animation\
+* circleMenuSample\build\tmp\expandedArchives\nineoldandroids-2.4.0.jar_3ojc63j4c6igvnhg5hxjwimio\com\nineoldandroids\animation\Animator$AnimatorListener.class
+* circleMenuSample\build\tmp\expandedArchives\nineoldandroids-2.4.0.jar_3ojc63j4c6igvnhg5hxjwimio\com\nineoldandroids\animation\Animator.class
+* circleMenuSample\build\tmp\expandedArchives\nineoldandroids-2.4.0.jar_3ojc63j4c6igvnhg5hxjwimio\com\nineoldandroids\animation\AnimatorInflater.class
+* circleMenuSample\build\tmp\expandedArchives\nineoldandroids-2.4.0.jar_3ojc63j4c6igvnhg5hxjwimio\com\nineoldandroids\animation\AnimatorListenerAdapter.class
+* circleMenuSample\build\tmp\expandedArchives\nineoldandroids-2.4.0.jar_3ojc63j4c6igvnhg5hxjwimio\com\nineoldandroids\animation\AnimatorSet$1.class
+* circleMenuSample\build\tmp\expandedArchives\nineoldandroids-2.4.0.jar_3ojc63j4c6igvnhg5hxjwimio\com\nineoldandroids\animation\AnimatorSet$AnimatorSetListener.class
+* circleMenuSample\build\tmp\expandedArchives\nineoldandroids-2.4.0.jar_3ojc63j4c6igvnhg5hxjwimio\com\nineoldandroids\animation\AnimatorSet$Builder.class
+* circleMenuSample\build\tmp\expandedArchives\nineoldandroids-2.4.0.jar_3ojc63j4c6igvnhg5hxjwimio\com\nineoldandroids\animation\AnimatorSet$Dependency.class
+* circleMenuSample\build\tmp\expandedArchives\nineoldandroids-2.4.0.jar_3ojc63j4c6igvnhg5hxjwimio\com\nineoldandroids\animation\AnimatorSet$DependencyListener.class
+* circleMenuSample\build\tmp\expandedArchives\nineoldandroids-2.4.0.jar_3ojc63j4c6igvnhg5hxjwimio\com\nineoldandroids\animation\AnimatorSet$Node.class
+* circleMenuSample\build\tmp\expandedArchives\nineoldandroids-2.4.0.jar_3ojc63j4c6igvnhg5hxjwimio\com\nineoldandroids\animation\AnimatorSet.class
+* circleMenuSample\build\tmp\expandedArchives\nineoldandroids-2.4.0.jar_3ojc63j4c6igvnhg5hxjwimio\com\nineoldandroids\animation\ArgbEvaluator.class
+* circleMenuSample\build\tmp\expandedArchives\nineoldandroids-2.4.0.jar_3ojc63j4c6igvnhg5hxjwimio\com\nineoldandroids\animation\FloatEvaluator.class
+* circleMenuSample\build\tmp\expandedArchives\nineoldandroids-2.4.0.jar_3ojc63j4c6igvnhg5hxjwimio\com\nineoldandroids\animation\FloatKeyframeSet.class
+* circleMenuSample\build\tmp\expandedArchives\nineoldandroids-2.4.0.jar_3ojc63j4c6igvnhg5hxjwimio\com\nineoldandroids\animation\IntEvaluator.class
+* circleMenuSample\build\tmp\expandedArchives\nineoldandroids-2.4.0.jar_3ojc63j4c6igvnhg5hxjwimio\com\nineoldandroids\animation\IntKeyframeSet.class
+* circleMenuSample\build\tmp\expandedArchives\nineoldandroids-2.4.0.jar_3ojc63j4c6igvnhg5hxjwimio\com\nineoldandroids\animation\Keyframe$FloatKeyframe.class
+* circleMenuSample\build\tmp\expandedArchives\nineoldandroids-2.4.0.jar_3ojc63j4c6igvnhg5hxjwimio\com\nineoldandroids\animation\Keyframe$IntKeyframe.class
+* circleMenuSample\build\tmp\expandedArchives\nineoldandroids-2.4.0.jar_3ojc63j4c6igvnhg5hxjwimio\com\nineoldandroids\animation\Keyframe$ObjectKeyframe.class
+* circleMenuSample\build\tmp\expandedArchives\nineoldandroids-2.4.0.jar_3ojc63j4c6igvnhg5hxjwimio\com\nineoldandroids\animation\Keyframe.class
+* circleMenuSample\build\tmp\expandedArchives\nineoldandroids-2.4.0.jar_3ojc63j4c6igvnhg5hxjwimio\com\nineoldandroids\animation\KeyframeSet.class
+* circleMenuSample\build\tmp\expandedArchives\nineoldandroids-2.4.0.jar_3ojc63j4c6igvnhg5hxjwimio\com\nineoldandroids\animation\ObjectAnimator.class
+* circleMenuSample\build\tmp\expandedArchives\nineoldandroids-2.4.0.jar_3ojc63j4c6igvnhg5hxjwimio\com\nineoldandroids\animation\PreHoneycombCompat$1.class
+* circleMenuSample\build\tmp\expandedArchives\nineoldandroids-2.4.0.jar_3ojc63j4c6igvnhg5hxjwimio\com\nineoldandroids\animation\PreHoneycombCompat$10.class
+* circleMenuSample\build\tmp\expandedArchives\nineoldandroids-2.4.0.jar_3ojc63j4c6igvnhg5hxjwimio\com\nineoldandroids\animation\PreHoneycombCompat$11.class
+* circleMenuSample\build\tmp\expandedArchives\nineoldandroids-2.4.0.jar_3ojc63j4c6igvnhg5hxjwimio\com\nineoldandroids\animation\PreHoneycombCompat$12.class
+* circleMenuSample\build\tmp\expandedArchives\nineoldandroids-2.4.0.jar_3ojc63j4c6igvnhg5hxjwimio\com\nineoldandroids\animation\PreHoneycombCompat$13.class
+* circleMenuSample\build\tmp\expandedArchives\nineoldandroids-2.4.0.jar_3ojc63j4c6igvnhg5hxjwimio\com\nineoldandroids\animation\PreHoneycombCompat$14.class
+* circleMenuSample\build\tmp\expandedArchives\nineoldandroids-2.4.0.jar_3ojc63j4c6igvnhg5hxjwimio\com\nineoldandroids\animation\PreHoneycombCompat$2.class
+* circleMenuSample\build\tmp\expandedArchives\nineoldandroids-2.4.0.jar_3ojc63j4c6igvnhg5hxjwimio\com\nineoldandroids\animation\PreHoneycombCompat$3.class
+* circleMenuSample\build\tmp\expandedArchives\nineoldandroids-2.4.0.jar_3ojc63j4c6igvnhg5hxjwimio\com\nineoldandroids\animation\PreHoneycombCompat$4.class
+* circleMenuSample\build\tmp\expandedArchives\nineoldandroids-2.4.0.jar_3ojc63j4c6igvnhg5hxjwimio\com\nineoldandroids\animation\PreHoneycombCompat$5.class
+* circleMenuSample\build\tmp\expandedArchives\nineoldandroids-2.4.0.jar_3ojc63j4c6igvnhg5hxjwimio\com\nineoldandroids\animation\PreHoneycombCompat$6.class
+* circleMenuSample\build\tmp\expandedArchives\nineoldandroids-2.4.0.jar_3ojc63j4c6igvnhg5hxjwimio\com\nineoldandroids\animation\PreHoneycombCompat$7.class
+* circleMenuSample\build\tmp\expandedArchives\nineoldandroids-2.4.0.jar_3ojc63j4c6igvnhg5hxjwimio\com\nineoldandroids\animation\PreHoneycombCompat$8.class
+* circleMenuSample\build\tmp\expandedArchives\nineoldandroids-2.4.0.jar_3ojc63j4c6igvnhg5hxjwimio\com\nineoldandroids\animation\PreHoneycombCompat$9.class
+* circleMenuSample\build\tmp\expandedArchives\nineoldandroids-2.4.0.jar_3ojc63j4c6igvnhg5hxjwimio\com\nineoldandroids\animation\PreHoneycombCompat.class
+* circleMenuSample\build\tmp\expandedArchives\nineoldandroids-2.4.0.jar_3ojc63j4c6igvnhg5hxjwimio\com\nineoldandroids\animation\PropertyValuesHolder$1.class
+* circleMenuSample\build\tmp\expandedArchives\nineoldandroids-2.4.0.jar_3ojc63j4c6igvnhg5hxjwimio\com\nineoldandroids\animation\PropertyValuesHolder$FloatPropertyValuesHolder.class
+* circleMenuSample\build\tmp\expandedArchives\nineoldandroids-2.4.0.jar_3ojc63j4c6igvnhg5hxjwimio\com\nineoldandroids\animation\PropertyValuesHolder$IntPropertyValuesHolder.class
+* circleMenuSample\build\tmp\expandedArchives\nineoldandroids-2.4.0.jar_3ojc63j4c6igvnhg5hxjwimio\com\nineoldandroids\animation\PropertyValuesHolder.class
+* circleMenuSample\build\tmp\expandedArchives\nineoldandroids-2.4.0.jar_3ojc63j4c6igvnhg5hxjwimio\com\nineoldandroids\animation\TimeAnimator$TimeListener.class
+* circleMenuSample\build\tmp\expandedArchives\nineoldandroids-2.4.0.jar_3ojc63j4c6igvnhg5hxjwimio\com\nineoldandroids\animation\TimeAnimator.class
+* circleMenuSample\build\tmp\expandedArchives\nineoldandroids-2.4.0.jar_3ojc63j4c6igvnhg5hxjwimio\com\nineoldandroids\animation\TypeEvaluator.class
+* circleMenuSample\build\tmp\expandedArchives\nineoldandroids-2.4.0.jar_3ojc63j4c6igvnhg5hxjwimio\com\nineoldandroids\animation\ValueAnimator$1.class
+* circleMenuSample\build\tmp\expandedArchives\nineoldandroids-2.4.0.jar_3ojc63j4c6igvnhg5hxjwimio\com\nineoldandroids\animation\ValueAnimator$2.class
+* circleMenuSample\build\tmp\expandedArchives\nineoldandroids-2.4.0.jar_3ojc63j4c6igvnhg5hxjwimio\com\nineoldandroids\animation\ValueAnimator$3.class
+* circleMenuSample\build\tmp\expandedArchives\nineoldandroids-2.4.0.jar_3ojc63j4c6igvnhg5hxjwimio\com\nineoldandroids\animation\ValueAnimator$4.class
+* circleMenuSample\build\tmp\expandedArchives\nineoldandroids-2.4.0.jar_3ojc63j4c6igvnhg5hxjwimio\com\nineoldandroids\animation\ValueAnimator$5.class
+* circleMenuSample\build\tmp\expandedArchives\nineoldandroids-2.4.0.jar_3ojc63j4c6igvnhg5hxjwimio\com\nineoldandroids\animation\ValueAnimator$AnimationHandler.class
+* circleMenuSample\build\tmp\expandedArchives\nineoldandroids-2.4.0.jar_3ojc63j4c6igvnhg5hxjwimio\com\nineoldandroids\animation\ValueAnimator$AnimatorUpdateListener.class
+* circleMenuSample\build\tmp\expandedArchives\nineoldandroids-2.4.0.jar_3ojc63j4c6igvnhg5hxjwimio\com\nineoldandroids\animation\ValueAnimator.class
+* circleMenuSample\build\tmp\expandedArchives\nineoldandroids-2.4.0.jar_3ojc63j4c6igvnhg5hxjwimio\com\nineoldandroids\util\
+* circleMenuSample\build\tmp\expandedArchives\nineoldandroids-2.4.0.jar_3ojc63j4c6igvnhg5hxjwimio\com\nineoldandroids\util\FloatProperty.class
+* circleMenuSample\build\tmp\expandedArchives\nineoldandroids-2.4.0.jar_3ojc63j4c6igvnhg5hxjwimio\com\nineoldandroids\util\IntProperty.class
+* circleMenuSample\build\tmp\expandedArchives\nineoldandroids-2.4.0.jar_3ojc63j4c6igvnhg5hxjwimio\com\nineoldandroids\util\NoSuchPropertyException.class
+* circleMenuSample\build\tmp\expandedArchives\nineoldandroids-2.4.0.jar_3ojc63j4c6igvnhg5hxjwimio\com\nineoldandroids\util\Property.class
+* circleMenuSample\build\tmp\expandedArchives\nineoldandroids-2.4.0.jar_3ojc63j4c6igvnhg5hxjwimio\com\nineoldandroids\util\ReflectiveProperty.class
+* circleMenuSample\build\tmp\expandedArchives\nineoldandroids-2.4.0.jar_3ojc63j4c6igvnhg5hxjwimio\com\nineoldandroids\view\
+* circleMenuSample\build\tmp\expandedArchives\nineoldandroids-2.4.0.jar_3ojc63j4c6igvnhg5hxjwimio\com\nineoldandroids\view\ViewHelper$Honeycomb.class
+* circleMenuSample\build\tmp\expandedArchives\nineoldandroids-2.4.0.jar_3ojc63j4c6igvnhg5hxjwimio\com\nineoldandroids\view\ViewHelper.class
+* circleMenuSample\build\tmp\expandedArchives\nineoldandroids-2.4.0.jar_3ojc63j4c6igvnhg5hxjwimio\com\nineoldandroids\view\ViewPropertyAnimator.class
+* circleMenuSample\build\tmp\expandedArchives\nineoldandroids-2.4.0.jar_3ojc63j4c6igvnhg5hxjwimio\com\nineoldandroids\view\ViewPropertyAnimatorHC$1.class
+* circleMenuSample\build\tmp\expandedArchives\nineoldandroids-2.4.0.jar_3ojc63j4c6igvnhg5hxjwimio\com\nineoldandroids\view\ViewPropertyAnimatorHC$AnimatorEventListener.class
+* circleMenuSample\build\tmp\expandedArchives\nineoldandroids-2.4.0.jar_3ojc63j4c6igvnhg5hxjwimio\com\nineoldandroids\view\ViewPropertyAnimatorHC$NameValuesHolder.class
+* circleMenuSample\build\tmp\expandedArchives\nineoldandroids-2.4.0.jar_3ojc63j4c6igvnhg5hxjwimio\com\nineoldandroids\view\ViewPropertyAnimatorHC$PropertyBundle.class
+* circleMenuSample\build\tmp\expandedArchives\nineoldandroids-2.4.0.jar_3ojc63j4c6igvnhg5hxjwimio\com\nineoldandroids\view\ViewPropertyAnimatorHC.class
+* circleMenuSample\build\tmp\expandedArchives\nineoldandroids-2.4.0.jar_3ojc63j4c6igvnhg5hxjwimio\com\nineoldandroids\view\ViewPropertyAnimatorICS$1.class
+* circleMenuSample\build\tmp\expandedArchives\nineoldandroids-2.4.0.jar_3ojc63j4c6igvnhg5hxjwimio\com\nineoldandroids\view\ViewPropertyAnimatorICS.class
+* circleMenuSample\build\tmp\expandedArchives\nineoldandroids-2.4.0.jar_3ojc63j4c6igvnhg5hxjwimio\com\nineoldandroids\view\ViewPropertyAnimatorPreHC$1.class
+* circleMenuSample\build\tmp\expandedArchives\nineoldandroids-2.4.0.jar_3ojc63j4c6igvnhg5hxjwimio\com\nineoldandroids\view\ViewPropertyAnimatorPreHC$AnimatorEventListener.class
+* circleMenuSample\build\tmp\expandedArchives\nineoldandroids-2.4.0.jar_3ojc63j4c6igvnhg5hxjwimio\com\nineoldandroids\view\ViewPropertyAnimatorPreHC$NameValuesHolder.class
+* circleMenuSample\build\tmp\expandedArchives\nineoldandroids-2.4.0.jar_3ojc63j4c6igvnhg5hxjwimio\com\nineoldandroids\view\ViewPropertyAnimatorPreHC$PropertyBundle.class
+* circleMenuSample\build\tmp\expandedArchives\nineoldandroids-2.4.0.jar_3ojc63j4c6igvnhg5hxjwimio\com\nineoldandroids\view\ViewPropertyAnimatorPreHC.class
+* circleMenuSample\build\tmp\expandedArchives\nineoldandroids-2.4.0.jar_3ojc63j4c6igvnhg5hxjwimio\com\nineoldandroids\view\animation\
+* circleMenuSample\build\tmp\expandedArchives\nineoldandroids-2.4.0.jar_3ojc63j4c6igvnhg5hxjwimio\com\nineoldandroids\view\animation\AnimatorProxy.class
+* proguard-project.txt
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:23.1.1
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+In CircleMenuLib:
+* AndroidManifest.xml => circleMenuLib\src\main\AndroidManifest.xml
+* libs\nineoldandroids-2.4.0.jar => circleMenuLib\libs\nineoldandroids-2.4.0.jar
+* res\ => circleMenuLib\src\main\res\
+* src\ => circleMenuLib\src\main\java\
+In CircleMenuSample:
+* AndroidManifest.xml => circleMenuSample\src\main\AndroidManifest.xml
+* res\ => circleMenuSample\src\main\res\
+* src\ => circleMenuSample\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
