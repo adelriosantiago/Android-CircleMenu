@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/circle-testing-mg.iml" filepath="$PROJECT_DIR$/circle-testing-mg.iml" />
+      <module fileurl="file://$PROJECT_DIR$/circleMenuLib/circleMenuLib.iml" filepath="$PROJECT_DIR$/circleMenuLib/circleMenuLib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/circleMenuSample/circleMenuSample.iml" filepath="$PROJECT_DIR$/circleMenuSample/circleMenuSample.iml" />
+    </modules>
+  </component>
+</project>
